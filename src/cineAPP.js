@@ -42,15 +42,8 @@ class UserLog {
 const usersList = [
     new UserLog (1, "Débora Andrade", "debora123"),
     new UserLog (2, "Gabriella Ayres", "gabriella456"),
-    new UserLog (3, "Admin", "admin789")
+    new UserLog (3, "Admin", "admin789"),
+    new UserLog (4, "Admin2", "admin780")
 ];
-
-usersList[0].activeUser("Débora Andrade", "debora123");
-usersList[1].activeUser("Gabriella Ayres", "gabriella456");
-usersList[2].activeUser("Admin", "admin789");
-
-
-
-
 
 
